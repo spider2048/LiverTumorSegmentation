@@ -1,0 +1,61 @@
+Epoch 1/20
+2023-11-30 17:58:50.887693: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inmodel_2/dropout_2/dropout/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+781/781 [==============================] - ETA: 0s - loss: 0.5631 - iou: 0.2993 - dice_coefficient: 0.4369
+Epoch 1: val_loss improved from inf to 0.35814, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 564s 714ms/step - loss: 0.5631 - iou: 0.2993 - dice_coefficient: 0.4369 - val_loss: 0.3581 - val_iou: 0.4772 - val_dice_coefficient: 0.6419
+Epoch 2/20
+781/781 [==============================] - ETA: 0s - loss: 0.2625 - iou: 0.5897 - dice_coefficient: 0.7375
+Epoch 2: val_loss improved from 0.35814 to 0.25890, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 714ms/step - loss: 0.2625 - iou: 0.5897 - dice_coefficient: 0.7375 - val_loss: 0.2589 - val_iou: 0.5926 - val_dice_coefficient: 0.7411
+Epoch 3/20
+781/781 [==============================] - ETA: 0s - loss: 0.2263 - iou: 0.6359 - dice_coefficient: 0.7737
+Epoch 3: val_loss improved from 0.25890 to 0.19328, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 714ms/step - loss: 0.2263 - iou: 0.6359 - dice_coefficient: 0.7737 - val_loss: 0.1933 - val_iou: 0.6786 - val_dice_coefficient: 0.8067
+Epoch 4/20
+781/781 [==============================] - ETA: 0s - loss: 0.1958 - iou: 0.6762 - dice_coefficient: 0.8042
+Epoch 4: val_loss improved from 0.19328 to 0.17189, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1958 - iou: 0.6762 - dice_coefficient: 0.8042 - val_loss: 0.1719 - val_iou: 0.7090 - val_dice_coefficient: 0.8281
+Epoch 5/20
+781/781 [==============================] - ETA: 0s - loss: 0.1790 - iou: 0.6995 - dice_coefficient: 0.8210
+Epoch 5: val_loss improved from 0.17189 to 0.16805, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1790 - iou: 0.6995 - dice_coefficient: 0.8210 - val_loss: 0.1681 - val_iou: 0.7147 - val_dice_coefficient: 0.8319
+Epoch 6/20
+781/781 [==============================] - ETA: 0s - loss: 0.1638 - iou: 0.7215 - dice_coefficient: 0.8362
+Epoch 6: val_loss improved from 0.16805 to 0.14798, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1638 - iou: 0.7215 - dice_coefficient: 0.8362 - val_loss: 0.1480 - val_iou: 0.7441 - val_dice_coefficient: 0.8520
+Epoch 7/20
+781/781 [==============================] - ETA: 0s - loss: 0.1529 - iou: 0.7376 - dice_coefficient: 0.8471
+Epoch 7: val_loss improved from 0.14798 to 0.13114, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1529 - iou: 0.7376 - dice_coefficient: 0.8471 - val_loss: 0.1311 - val_iou: 0.7699 - val_dice_coefficient: 0.8689
+Epoch 8/20
+781/781 [==============================] - ETA: 0s - loss: 0.1406 - iou: 0.7561 - dice_coefficient: 0.8594
+Epoch 8: val_loss did not improve from 0.13114
+781/781 [==============================] - 557s 713ms/step - loss: 0.1406 - iou: 0.7561 - dice_coefficient: 0.8594 - val_loss: 0.1393 - val_iou: 0.7578 - val_dice_coefficient: 0.8607
+Epoch 9/20
+781/781 [==============================] - ETA: 0s - loss: 0.1346 - iou: 0.7653 - dice_coefficient: 0.8654
+Epoch 9: val_loss improved from 0.13114 to 0.12816, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1346 - iou: 0.7653 - dice_coefficient: 0.8654 - val_loss: 0.1282 - val_iou: 0.7746 - val_dice_coefficient: 0.8718
+Epoch 10/20
+781/781 [==============================] - ETA: 0s - loss: 0.1277 - iou: 0.7758 - dice_coefficient: 0.8723
+Epoch 10: val_loss did not improve from 0.12816
+781/781 [==============================] - 557s 713ms/step - loss: 0.1277 - iou: 0.7758 - dice_coefficient: 0.8723 - val_loss: 0.1765 - val_iou: 0.7027 - val_dice_coefficient: 0.8235
+Epoch 11/20
+781/781 [==============================] - ETA: 0s - loss: 0.1222 - iou: 0.7842 - dice_coefficient: 0.8778
+Epoch 11: val_loss improved from 0.12816 to 0.10791, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1222 - iou: 0.7842 - dice_coefficient: 0.8778 - val_loss: 0.1079 - val_iou: 0.8066 - val_dice_coefficient: 0.8921
+Epoch 12/20
+781/781 [==============================] - ETA: 0s - loss: 0.1192 - iou: 0.7892 - dice_coefficient: 0.8808
+Epoch 12: val_loss did not improve from 0.10791
+781/781 [==============================] - 557s 713ms/step - loss: 0.1192 - iou: 0.7892 - dice_coefficient: 0.8808 - val_loss: 0.1100 - val_iou: 0.8032 - val_dice_coefficient: 0.8900
+Epoch 13/20
+781/781 [==============================] - ETA: 0s - loss: 0.1125 - iou: 0.7995 - dice_coefficient: 0.8875
+Epoch 13: val_loss improved from 0.10791 to 0.10627, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1125 - iou: 0.7995 - dice_coefficient: 0.8875 - val_loss: 0.1063 - val_iou: 0.8093 - val_dice_coefficient: 0.8937
+Epoch 14/20
+781/781 [==============================] - ETA: 0s - loss: 0.1088 - iou: 0.8055 - dice_coefficient: 0.8912
+Epoch 14: val_loss did not improve from 0.10627
+781/781 [==============================] - 557s 713ms/step - loss: 0.1088 - iou: 0.8055 - dice_coefficient: 0.8912 - val_loss: 0.1102 - val_iou: 0.8033 - val_dice_coefficient: 0.8898
+Epoch 15/20
+781/781 [==============================] - ETA: 0s - loss: 0.1210 - iou: 0.7890 - dice_coefficient: 0.8790
+Epoch 15: val_loss improved from 0.10627 to 0.09979, saving model to /kaggle/working/model_checkpoint.h5
+781/781 [==============================] - 557s 713ms/step - loss: 0.1210 - iou: 0.7890 - dice_coefficient: 0.8790 - val_loss: 0.0998 - val_iou: 0.8198 - val_dice_coefficient: 0.9002
