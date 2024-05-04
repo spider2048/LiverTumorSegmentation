@@ -2,6 +2,16 @@
 
 > Suhas | 2024
 
+> kaggle: ag3ntsp1d3rx
+
+## Kaggle
+
+* https://www.kaggle.com/datasets/ag3ntsp1d3rx/litsdataset2
+* https://www.kaggle.com/code/ag3ntsp1d3rx/litstumorprep
+* https://www.kaggle.com/datasets/ag3ntsp1d3rx/litstrained
+* https://www.kaggle.com/code/ag3ntsp1d3rx/litsliver
+* https://www.kaggle.com/code/ag3ntsp1d3rx/litstumor
+
 ## Results
 
 ### Liver
