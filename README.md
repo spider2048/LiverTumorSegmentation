@@ -4,11 +4,42 @@
 
 ## Results
 
-Liver:
+### Liver
 
-* Dice score: 0.97
-* Model: Unet++  (encoder: Efficientnet-b5, decoder: 5 levels)
+Preparation: [Missing](http://http.cat/404)
 
-Tumour:
+Notebook: [litsliver.ipynb](./litsliver.ipynb)
 
-* Dice score: 0.82
+![](./images/liver.png)
+![](./images/liver2.png)
+![](./images/liver3.png)                
+
+* Dice score: **0.97**
+* Model: Unet++ 
+    - encoder: Efficientnet-b5
+    - decoder: 5 levels
+
+* Loss: Dice Loss
+* Optimizer: RMSProp
+* Epochs: 5
+
+### Tumor
+
+Preparation: [litstumourprep.ipynb](./litstumorprep.ipynb)
+
+Model: [litstumor.ipynb](./litstumor.ipynb)
+
+![](./images/image.png)
+![](./images/image2.png)
+![](./images/image3.png)
+
+* Dice score: **0.82**
+
+* Model: Unet++ 
+    - encoder: Efficientnet-b5
+    - decoder: 5 levels
+
+* Loss: Dice Loss
+* Optimizer: RMSProp        
+* Epochs: 5
+* Threshold: 0.99
