@@ -43,13 +43,13 @@ Model: [litstumor.ipynb](./litstumor.ipynb)
 ![](./images/image2.png)
 ![](./images/image3.png)
 
-* Dice score: **0.82**
+* Dice score: **0.87**
 
 * Model: Unet++ 
-    - encoder: Efficientnet-b5
+    - encoder: Efficientnet-b3
     - decoder: 5 levels
 
 * Loss: Dice Loss
 * Optimizer: RMSProp        
-* Epochs: 5
-* Threshold: 0.99
+* Epochs: 10
+* Threshold: 0.6
